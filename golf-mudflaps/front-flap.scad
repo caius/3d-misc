@@ -1,3 +1,4 @@
+$fn = 100;
 
 // Print bed
 /*
@@ -13,6 +14,9 @@ p1 = [0, 220];
 p2 = [40, 220];
 p3 = [150, 0];
 
-linear_extrude(height=5, convexity=10, twist=0) {
-  polygon([p0, p1, p2, p3]);
+linear_extrude(height=1, convexity=10, twist=0) {
+  difference() {
+    polygon([p0, p1, p2, p3]);
+    polygon([[5, 5], [5, 215], [40, 215], [140, 5]]);
+  }
 }
