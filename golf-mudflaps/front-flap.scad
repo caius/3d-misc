@@ -40,5 +40,5 @@ linear_extrude(height=1, convexity=0, twist=0) {
   holed_arm([33, 188]);
 
   // bottom hole
-  holed_arm([68, 79]);
+  holed_arm([58, 79]);
 }
