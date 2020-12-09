@@ -25,7 +25,7 @@ p1 = [0, 220];
 p2 = [40, 220];
 p3 = [100, 0];
 
-linear_extrude(height=1, convexity=0, twist=0) {
+linear_extrude(height=0.5, convexity=0, twist=0) {
   difference() {
     roundedQuadrilateral(p0, p1, p2, p3);
 
