@@ -1,3 +1,5 @@
+$fn = 100;
+
 // We need a large rectangle with a semi-circle cut out of it at one end
 // The spacing from the wall is the distance from square end to tip of semi-circle. 120mm in my case.
 
@@ -26,11 +28,11 @@ difference() {
 
     // Middle bit
     translate([45, 35, 0]) {
-      square(size = [120-45, 30]);
+      square(size = [165-45, 30]);
     }
 
     // Wall foot
-    translate([100, 0, 0]) {
+    translate([145, 0, 0]) {
       square(size = [20, 100]);
     }
   }
