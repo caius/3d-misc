@@ -1,4 +1,4 @@
-$fn = 100;
+$fn = 1000;
 
 // We need a large rectangle with a semi-circle cut out of it at one end
 // The spacing from the wall is the distance from square end to tip of semi-circle. 120mm in my case.
